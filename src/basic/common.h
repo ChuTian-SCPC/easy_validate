@@ -1,0 +1,36 @@
+#ifndef _SVPCET_COMMON_H_
+#define _SVPCET_COMMON_H_
+
+#include"testlib.h"
+#include <sstream>
+#include <unordered_map>
+#include <thread>
+#include <chrono>
+#include <sys/stat.h>
+#include <queue>
+#include <stack>
+#include <unordered_set>
+
+#ifdef ON_WINDOWS
+#include <direct.h>
+#include <windows.h>
+#include <io.h>
+#define dup _dup
+#define dup2 _dup2
+#define fileno _fileno
+#define mkdir(dir, mode) _mkdir(dir)
+#define stat _stat 
+#else
+#include <unistd.h>
+#include <limits.h>
+#include <dirent.h> 
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <csignal>
+#endif
+
+#ifdef __APPLE__
+#include <mach-o/dyld.h>
+#endif
+
+#endif // !_SVPCET_COMMON_H_

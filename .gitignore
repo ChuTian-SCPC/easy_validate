@@ -1,0 +1,11 @@
+.vscode/
+.idea/
+debug/
+# Xmake cache
+.xmake/
+build/
+src/testlib.h
+src/basic/testlib.h
+
+# MacOS Cache
+.DS_Store
