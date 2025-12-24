@@ -14,7 +14,7 @@
 #include "log/logger.h"
 #endif // !_SVPCET_LOGGER_H_
 
-namespace validator {
+namespace validate {
   namespace _msg {
     class Path {
     protected:

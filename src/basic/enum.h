@@ -1,7 +1,7 @@
 #ifndef _SVPCET_ENUM_H_
 #define _SVPCET_ENUM_H_
 
-namespace validator {
+namespace validate {
     namespace _enum {
         enum class Color {
             Red,
@@ -17,6 +17,6 @@ namespace validator {
         }
     
     } // namespace _enum
-} // namespace validator
+} // namespace validate
 
 #endif // !_SVPCET_ENUM_H_

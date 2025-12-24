@@ -27,11 +27,11 @@
 #include "log/path.h"
 #endif // !_SVPCET_PATH_H_
 
-#ifndef _SVPCET_RANGE_H_
-#include "numeric/range.h"
-#endif // !_SVPCET_RANGE_H_
+#ifndef _SVPCET_INIT_H_
+#include "numeric/init.h"
+#endif // !_SVPCET_INIT_H_
 
-namespace validator {
+namespace validate {
     namespace all {
         using namespace _msg;
         using namespace _enum;
@@ -39,7 +39,7 @@ namespace validator {
         using namespace tools;
         using namespace numeric;
     } // namespace all
-} // namespace validator
+} // namespace validate
 
 #ifdef _SVPCET_MACRO_H_
 #undef _GET_VALUE_CONST

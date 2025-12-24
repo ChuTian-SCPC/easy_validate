@@ -5,7 +5,7 @@
 #include "common.h"
 #endif // !_SVPCET_COMMON_H_
 
-namespace validator {
+namespace validate {
     namespace _setting {
 
     #ifdef ON_WINDOWS
@@ -19,6 +19,6 @@ namespace validator {
 
     };// namespace _setting
   
-};// namespace validator
+};// namespace validate
 
 #endif // !_SVPCET_SETTING_H_
